@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+padding 0;
+margin 0;
+box-sizing: border-box;
+}
+html{
+font-size:10px;
+font-family:'Montserrat',sans-serif;
+}
+a{
+text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*hero section*/
+#hero{
+background-image:url(./img/hero-bng.jpg);
+background-size:cover;
+bacground-position:top center;
+position: relative;
+z-index: 1;
+
+}
+#hero::after {
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color:black;
+    opacity: .7;
+    z-index:-1;
+}
+#hero h1{
+    display: black;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+
+}
+#hero h1 span{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width:0;
+background-color: #21ad02;
+animation: text_reveal_box 1s ease;
+animation-delay: 1s;
+
+
+
+
+}
+#hero .cta{
+    display:inline-black;
+    padding:10px 30px;
+    color:#21ad02;
+    background-color:transparent;
+    border:2px solid #21ad02;
+    fonr-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    margin-top:30px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+#hero .cta:hover{
+color: white;
+background-color: #21ad02;
+
+}
+/*keyframes*/
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+
+    }
+    100%{
+       width: 0;
+       left: 100%;
+
+    }
+
+}
