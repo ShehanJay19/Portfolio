@@ -1,0 +1,25 @@
+/*import fonts from fonts.ccs*/
+@import url(./fonts.css);
+
+/*start navigation*/
+
+.header_area .main-menu .navbar .navbar-brand{
+padding:0 2rem 0 2rem;
+}
+.header_area .main-menu .navbar{
+padding:1rem 8rem;
+
+}
+.header_area .main-menu .nav-item .nav-link{
+font-family:"Roboto";
+text-transform:uppercase;
+font-weight:500;
+paddng:1.7rem;
+color: black;*/
+
+
+
+}
+
+/*end navigation*/
+
