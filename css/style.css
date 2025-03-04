@@ -1,5 +1,8 @@
 /*import fonts from fonts.ccs*/
 @import url(./fonts.css);
+/*css variable*/
+@import url(./partials/_variables.css);
+
 
 /*start navigation*/
 
@@ -11,15 +14,28 @@ padding:1rem 8rem;
 
 }
 .header_area .main-menu .nav-item .nav-link{
-font-family:"Roboto";
+font:normal 500 15px/2px ;
 text-transform:uppercase;
+padding: 2.7rem 2.5rem; 
 font-weight:500;
 paddng:1.7rem;
-color: black;*/
-
-
+color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a{
+background: var(--gradient-color);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
 
 }
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    }
+
 
 /*end navigation*/
 
