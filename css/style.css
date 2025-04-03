@@ -7,7 +7,24 @@
 
 
 /*start navigation*/
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Optional: Make the text uppercase */
+    text-decoration: none; /* Remove underline */
+    background: var(--gradient-color); /* Apply gradient background */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent to show the gradient */
+    background-clip: text; /* For non-WebKit browsers */
+    transition: background 0.3s ease; /* Add a smooth transition for hover effects */
+}
 
+.navbar-brand:hover {
+    background: var(--shadow-color); /* Change gradient or color on hover */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    background-clip: text;
+}
 .header_area .main-menu .navbar .navbar-brand{
 padding:0 2rem 0 0.4rem;
 }

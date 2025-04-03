@@ -12,8 +12,8 @@ heidht:100%;
 --text-color: #777777;
 --border-color: #201f1f17;
 --gradient-color:linear-gradient(90deg,rgba(0, 184, 37, 0.81) 0%,rgb(3, 114, 59) 100%);
---shadow-color:0px 10px 30px rgba(118,85,225,0.3);
---box-shadow:0px 10px 30px  rgba(57,56,61,0.205);
+--shadow-color:0px 10px 30px rgba(85, 225, 120, 0.3);
+--box-shadow:0px 10px 30px  rgba(1, 54, 22, 0.2);
 
 /*font family variable*/
 --roboto:'Roboto';
