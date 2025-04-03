@@ -1,5 +1,8 @@
 /* @font-face*/
-@font-face{
-font-family:"Roboto";
-src:'../fonts/Roboto/static/Roboto-Regular.ttf';
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/static/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
 }
+
+

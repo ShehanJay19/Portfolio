@@ -2,12 +2,14 @@
 @import url(./fonts.css);
 /*css variable*/
 @import url(./partials/_variables.css);
+/*Global Styling*/
+@import url(./css/partials/_global.css);
 
 
 /*start navigation*/
 
 .header_area .main-menu .navbar .navbar-brand{
-padding:0 2rem 0 2rem;
+padding:0 2rem 0 0.4rem;
 }
 .header_area .main-menu .navbar{
 padding:1rem 8rem;
@@ -39,6 +41,9 @@ background-clip: text;
 
 /*end navigation*/
 /*Banner area*/
+.site-main .site-banner{
+    background:transparent;
+}
 .site-main .site-banner .site-title h3{
 padding-top:35%;
 font-weight:500;
@@ -60,5 +65,10 @@ transform:translateY(-10px);
 .site-main .site-banner .site-title h4{
 font-size:1.5rem;
 }
+.site-main .site-banner .banner-image > img{
+padding:7rem 0;
+width:90rem;
+}
+
 
 /*End Bannner area*/
