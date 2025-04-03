@@ -8,19 +8,19 @@
 
 /*start navigation*/
 .navbar-brand {
-    font-size: 1.5rem; /* Adjust the font size */
-    font-weight: bold; /* Make the text bold */
-    text-transform: uppercase; /* Optional: Make the text uppercase */
-    text-decoration: none; /* Remove underline */
-    background: var(--gradient-color); /* Apply gradient background */
-    -webkit-background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent; /* Make the text transparent to show the gradient */
-    background-clip: text; /* For non-WebKit browsers */
-    transition: background 0.3s ease; /* Add a smooth transition for hover effects */
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    background: var(--gradient-color); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    transition: background 0.3s ease; 
 }
 
 .navbar-brand:hover {
-    background: var(--shadow-color); /* Change gradient or color on hover */
+    background: var(--shadow-color); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: black;
     background-clip: text;
@@ -142,4 +142,57 @@ site-main .services-area .row{
     transform: scale(1.05);
     
     box-shadow: var(--shadow-color);
+}
+.contact-area {
+    padding: 4rem 0; /* Add padding to the top and bottom of the section */
+    background-color:transparent /* Light background for contrast */
+}
+
+.contact-title h2 {
+    font-size: 2.5rem; /* Increase the font size of the title */
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 1rem; /* Add spacing below the title */
+    color: #333; /* Darker color for the title */
+}
+
+.contact-title p {
+    font-size: 1rem; /* Adjust the font size of the subtitle */
+    color: #666; /* Subtle color for the subtitle */
+    margin-bottom: 2rem; /* Add spacing below the subtitle */
+}
+
+.contact-info {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 2rem; /* Add spacing between items */
+}
+
+.contact-info i {
+    font-size: 2.5rem; /* Increase the size of the icons */
+    color: var(--gradient-color); /* Use a gradient color for the icons */
+    margin-bottom: 0.5rem; /* Add spacing below the icon */
+}
+
+.contact-info h4 {
+    font-size: 1.2rem; /* Adjust the font size of the heading */
+    font-weight: bold; /* Make the heading bold */
+    margin-bottom: 0.5rem; /* Add spacing below the heading */
+    color: #333; /* Darker color for the heading */
+}
+
+.contact-info p {
+    font-size: 1rem; /* Adjust the font size of the text */
+    color: #555; /* Subtle color for the text */
+    margin: 0; /* Remove default margin */
+}
+
+.contact-info a {
+    color: var(--gradient-color); /* Use a gradient color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #333; /* Change color on hover */
 }
